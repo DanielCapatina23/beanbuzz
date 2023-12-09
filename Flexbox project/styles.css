@@ -372,7 +372,8 @@ footer h5 {
 }
 
 @media only screen and (max-width: 850px ) {
-    .navbar ul li {
+    
+    #logosvg {
         display: none;
     }
 
@@ -381,7 +382,22 @@ footer h5 {
     }
 }
 
+@media only screen and (max-width: 510px) {
+    .navbar ul li {
+        margin-right: 2rem;
+        margin: 1rem 2rem;
+        font-size: 1rem;
+        color: #FFFFFF;
+}
+}
 @media only screen and (max-width: 380px) {
+    .navbar ul li {
+        margin-right: 1rem;
+        margin: 1rem 1rem;
+        font-size: 0.75rem;
+        color: #FFFFFF;
+    }
+
     .cardone img, .cardtwo img, .cardthree img, .cardfour img {
         margin-left: 8px;
         margin-right: 8px;
