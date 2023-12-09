@@ -87,7 +87,7 @@ h1 {
 
 .cardone {
     height: 300px;
-    width: 250px;
+    max-width: 250px;
     background-color: #332C2A;
     border-radius: 5%;
     margin-left: 2rem;
@@ -100,6 +100,7 @@ h1 {
     position: relative;
     top: 15px;
     margin-left: 25px;
+    margin-right: 25px;
     border-radius: 5%;
 }
 
@@ -113,7 +114,7 @@ h1 {
 
 .cardtwo {
     height: 300px;
-    width: 250px;
+    max-width: 250px;
     background-color: #332C2A;
     border-radius: 5%;
     margin-left: 2rem;
@@ -126,6 +127,7 @@ h1 {
     position: relative;
     top: 15px;
     margin-left: 25px;
+    margin-right: 25px;
     border-radius: 5%;
 }
 
@@ -139,7 +141,7 @@ h1 {
 
 .cardthree {
     height: 300px;
-    width: 250px;
+    max-width: 250px;
     background-color: #332C2A;
     border-radius: 5%;
     margin-left: 2rem;
@@ -152,6 +154,7 @@ h1 {
     position: relative;
     top: 15px;
     margin-left: 25px;
+    margin-right: 25px;
     border-radius: 5%;
 }
 
@@ -165,7 +168,7 @@ h1 {
 
 .cardfour {
     height: 300px;
-    width: 250px;
+    max-width: 250px;
     background-color: #332C2A;
     border-radius: 5%;
     margin-left: 2rem;
@@ -178,6 +181,7 @@ h1 {
     position: relative;
     top: 15px;
     margin-left: 25px;
+    margin-right: 25px;
     border-radius: 5%;
 }
 
@@ -310,6 +314,10 @@ footer h5 {
         background-image: url(./images/small\ hero.jpg);
     }
 
+    .cardone img, .cardtwo img, .cardthree img, .cardfour img {
+        margin-right: 2rem; 
+    }
+
     .teamone {
         height: 300px;
         width: 500px;
@@ -371,6 +379,56 @@ footer h5 {
         margin-left: 60%;
     }
 }
+
+@media only screen and (max-width: 380px) {
+    .cardone img, .cardtwo img, .cardthree img, .cardfour img {
+        margin-left: 8px;
+        margin-right: 8px;
+        align-content: center;
+    }
+    
+    .cardone h3 {
+        margin-left: 4.5rem;
+    }
+    
+    .cardtwo h3 {
+        margin-left: 1.2rem;
+    }
+    .cardthree h3 {
+        margin-left: 3.8rem;
+    }
+    .cardfour h3 {
+        margin-left: 3rem;
+    }
+    .teamone, .teamtwo, .teamthree {
+        height: 350px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    .teamone img, .teamthree img {
+        margin-left: 15px;
+    }
+    .teamtwo img {
+        margin-left: 15px;
+    }
+    .teamone h3 {
+        margin-left: 3.3rem;
+    }
+    .teamtwo h3 {
+        margin-left: 3.5rem;
+    }
+    .teamthree h3 {
+        margin-left: 2.7rem;
+    }
+    footer h4 {
+        margin-left: 5%;
+    }
+    footer h5{
+        margin-left: 45%;
+    }
+}
+    
 
 /* TODO Create media query to make the site responnsive on samsung fold */
 
