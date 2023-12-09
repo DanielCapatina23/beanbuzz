@@ -1,0 +1,365 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #EA4927;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.5rem;
+    align-self: center;
+    margin-left: 1rem;
+    color: #FFFFFF;
+}
+
+.navbar ul  {
+    display: flex;
+    list-style: none;
+    
+}
+
+.navbar ul li {
+    margin-right: 3rem;
+    margin: 1rem 3rem;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover {
+    color: lightgray;
+}
+
+#logosvg {
+    display: flex;
+}
+
+.image {
+    align-self: center;
+    margin-left: 1rem;
+}
+
+.hero {
+    width: 100%;
+    height: 29rem;
+    background-image: url(./images/Beanbuzzhero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    background-color: #B85744;
+    background-size: cover;
+}
+
+.menuitems {
+    flex-wrap: wrap;
+    
+}
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    filter: drop-shadow(1px 1px black);
+    padding-top: 2rem;
+}
+
+.cardone {
+    height: 300px;
+    width: 250px;
+    background-color: #332C2A;
+    border-radius: 5%;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+}
+
+.cardone img {
+    position: relative;
+    top: 15px;
+    margin-left: 25px;
+    border-radius: 5%;
+}
+
+.cardone h3 {
+    color: white;
+    position: relative;
+    top: 1rem;
+    margin-left: 5.5rem;
+    font-size: 2rem;
+}
+
+.cardtwo {
+    height: 300px;
+    width: 250px;
+    background-color: #332C2A;
+    border-radius: 5%;
+    margin-left: 2rem;
+    margin-top: 5rem; 
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+}
+
+.cardtwo img {
+    position: relative;
+    top: 15px;
+    margin-left: 25px;
+    border-radius: 5%;
+}
+
+.cardtwo h3 {
+    color: white;
+    position: relative;
+    top: 1rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+
+.cardthree {
+    height: 300px;
+    width: 250px;
+    background-color: #332C2A;
+    border-radius: 5%;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+}
+
+.cardthree img {
+    position: relative;
+    top: 15px;
+    margin-left: 25px;
+    border-radius: 5%;
+}
+
+.cardthree h3 {
+    color: white;
+    position: relative;
+    top: 1rem;
+    margin-left: 5rem;
+    font-size: 2rem;
+}
+
+.cardfour {
+    height: 300px;
+    width: 250px;
+    background-color: #332C2A;
+    border-radius: 5%;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+}
+
+.cardfour img {
+    position: relative;
+    top: 15px;
+    margin-left: 25px;
+    border-radius: 5%;
+}
+
+.cardfour h3 {
+    color: white;
+    position: relative;
+    top: 1rem;
+    margin-left: 4.1rem;
+    font-size: 2rem;
+}
+
+.menuitems {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team {
+    width: 100%;
+    height: auto;
+    background-color: #52423F;
+    background-size: cover;
+}
+
+.teammembers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.teamone {
+    height: 350px;
+    width: 200px;
+    background-color: #332C2A;
+    border-radius: 5%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.teamone img {
+    position: relative;
+    top: 15px;
+    margin-left: 15px;
+    border-radius: 5%;
+}
+
+.teamone h3 {
+    color: white;
+    position: relative;
+    top: 1rem;
+    margin-left: 3.3rem;
+    font-size: 2rem;
+}
+
+.teamtwo {
+    height: 350px;
+    width: 200px;
+    background-color: #332C2A;
+    border-radius: 5%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.teamtwo img {
+    position: relative;
+    top: 15px;
+    margin-left: 15px;
+    border-radius: 5%;
+}
+
+.teamtwo h3 {
+    color: white;
+    position: relative;
+    top: 1rem;
+    margin-left: 3.3rem;
+    font-size: 2rem;
+}
+
+.teamthree {
+    height: 350px;
+    width: 200px;
+    background-color: #332C2A;
+    border-radius: 5%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.teamthree img {
+    position: relative;
+    top: 15px;
+    margin-left: 15px;
+    border-radius: 5%;
+}
+
+.teamthree h3 {
+    color: white;
+    position: relative;
+    top: 1rem;
+    margin-left: 2.7rem;
+    font-size: 2rem;
+}
+
+footer {
+    width: 100%;
+    height: 180px;
+    background-color: #141414;
+}
+
+footer h4 {
+    color: white;
+    position: relative;
+    top: 48%;
+    margin-left: 10%;
+}
+
+footer h5 {
+    color: white;
+    position: relative;
+    top: 30%;
+    margin-left: 70%; 
+}
+
+@media only screen  and (max-width: 992px ) {
+    .hero {
+        background-image: url(./images/small\ hero.jpg);
+    }
+
+    .teamone {
+        height: 300px;
+        width: 500px;
+        display: flex;
+    }
+
+    .teamone h3 {
+        position: relative;
+        margin-left: 4rem;
+        margin-top: 2rem;
+    }
+
+    .teamone img {
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+    }
+
+    .teamtwo {
+        height: 300px;
+        width: 500px;
+        display: flex;
+    }
+
+    .teamtwo h3 {
+        position: relative;
+        margin-left: 4rem;
+        margin-top: 2rem;
+    }
+
+    .teamtwo img {
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+    }
+
+    .teamthree {
+        height: 300px;
+        width: 500px;
+        display: flex;
+    }
+
+    .teamthree h3 {
+        position: relative;
+        margin-left: 4rem;
+        margin-top: 2rem;
+    }
+
+    .teamthree img {
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 850px ) {
+    .navbar ul li {
+        display: none;
+    }
+
+    footer h5 {
+        margin-left: 60%;
+    }
+}
+
+/* TODO Create media query to make the site responnsive on samsung fold */
+
+ 
